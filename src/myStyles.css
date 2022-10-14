@@ -28,14 +28,14 @@
     left: 0;
     right: 0;
     background: #111;
-    height: auto;
+    height: 100px;
     width: 100vw;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     color: #fff;
 }
 
 .footer-content {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -45,16 +45,16 @@
 .footer-content p {
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    line-height: 10px;
+    font-size: 12px;
     color: #cacdd2;
 }
 
-.footer-content h3 {
-    font-size: 2.1rem;
-    font-weight: 500;
+.footer-content h5 {
+    font-size: 1rem;
+    font-weight: 100;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 0rem;
 }
 
 .footer-bottom p {
@@ -77,7 +77,7 @@
 }
 
 .nav-menu {
-    float: right;
+    float:right;
 }
 
 .nav-menu ul {
@@ -85,7 +85,8 @@
 }
 
 .nav-menu ul li {
-    padding-right: 10px;
+    padding-top: 25px;
+    padding-right: 30px;
     display: block;
 }
 
@@ -99,23 +100,26 @@
 }
 
 .article {
+    margin-right: 0px;
     padding: 0 15px;
     width: 900px;
     max-width: 60%;
     background: transparent !important;
-    margin: 0 15px 0 0;
   }
 .article h1 {
     margin-top: 0;
   }
   
 .aside {
+    margin-right: 0px;
     top: 45px;
     background: rgba(0, 0, 0, 0.07);
-    padding: 30px 10px;
-    max-width: 20%;
+    padding-right: 0px;
+    padding-top:15px;
+    max-width: 25%;
+    height:100%;
     overflow: auto;
-    z-index: 1;
+    /* z-index: 1; */
   }
 .aside h3 {
     margin: 0;
@@ -135,7 +139,12 @@
     padding: 0 2px 5px 2px;
   }
   
-.article,
-  aside {
+.article,.aside{
     float: left;
+    margin-left:0px;
   }
+img{
+    padding-left: 30px ;
+    padding-top: 15px;   
+    float: left;
+}

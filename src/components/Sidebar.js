@@ -6,7 +6,7 @@ const Sidebar = () => {
         <div className="menu">
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a href="/components">Functional Components</a>
           </li>
           <li>
             <a href="#about">ABOUT</a>

@@ -2,21 +2,16 @@ import React from "react";
 
 const Navbar = () => {
   return (
+    <>
+    <img src="../favicon.ico"  alt = "../logo.jpeg" />
     <div className="nav-menu">
-      <div className="logo">
-        <strong>
-          <a href="">
-            <img src="images/logo.png" alt="Sam Jarvis logo" />
-          </a>
-        </strong>
-      </div>
       <div className="menu">
         <ul>
           <li>
             <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="/about">ABOUT</a>
           </li>
           <li>
             <a href="#work">PORTFOLIO</a>
@@ -27,6 +22,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+    </>
   );
 };
 
